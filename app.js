@@ -27,6 +27,10 @@ app.post('/cheeses', function(req, res){
 	//create new cheeses
 })
 
+app.put('cheeses/:id', function(req, res){
+	//update
+})
+
 app.listen(3000, function(){
     console.log('listening on port 3000!')
 });
